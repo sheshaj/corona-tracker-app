@@ -1,0 +1,102 @@
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    background: white;
+  }
+  
+  td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+    font-size: 15px;
+  }
+
+  td{
+    word-spacing: 10px;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #dddddd;
+  }
+
+  .font-12-px{
+      font-size: 12px;
+  }
+
+  .font-16-px{
+    font-size: 16px;
+  }
+
+  h2, h3, h5{
+      text-align: center;
+  }
+  .data-table{
+    td:nth-child(2) {
+        color: red;
+        font-weight: 700;
+    }
+
+    td:nth-child(3) {
+        color: orangered;
+        font-weight: 700;
+    }
+
+    td:nth-child(4) {
+        color: green;
+        font-weight: 700;
+    }
+
+    td:nth-child(5) {
+        color: grey;
+        font-weight: 700;
+    }
+}
+
+.total-data-table{
+    td:nth-child(1) {
+        color: red;
+        font-weight: 700;
+    }
+
+    td:nth-child(2) {
+        color: orangered;
+        font-weight: 700;
+    }
+
+    td:nth-child(3) {
+        color: green;
+        font-weight: 700;
+    }
+
+    td:nth-child(4) {
+        color: grey;
+        font-weight: 700;
+    }
+
+}
+
+  .select-css {
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: #444;
+    line-height: 1.3;
+    padding: .6em 1.4em .5em .8em;
+    width: 80%;
+    margin: 5% 10% 2%;
+    max-width: 80%; /* useful when width is set to anything other than 100% */
+    box-sizing: border-box;
+    border: 1px solid #aaa;
+    border-radius: .5em;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-color: #fff;
+  }
+
+  .up-arrow{
+      font-size: 10px;
+      margin-left: 15px;
+  }
